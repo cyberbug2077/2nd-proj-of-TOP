@@ -149,7 +149,7 @@ button {
     border-radius: 8px;
 }
 
-.calltoa .text {
+.calltoa > div {
     display: flex;
     flex-direction: column;
     margin: 50px;
@@ -161,8 +161,8 @@ button {
 }
 
 .calltoa button {
-    display: block;
-    border: 100px;
+    border: 2px solid;
+    flex: none;
 }
 
 /* footer */
